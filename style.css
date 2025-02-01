@@ -1,0 +1,401 @@
+.container-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    
+}
+body{
+    background-color: rgb(255, 247, 237);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ header #website nav a{
+    text-decoration:none;
+    word-spacing: 10px;
+}
+#website nav #title a{
+    word-spacing: 2px;
+}
+
+#website nav #title1 a{
+    word-spacing: 10px;
+    color: red;
+    font-weight: 600;
+
+}
+.apple img{
+    width:110px;
+    
+
+
+}
+
+.Flink{
+    color: burlywood;
+    font-weight:600; 
+    padding-left: 20px;
+    border-right: 1px solid brown;
+    padding-right: 10px;
+
+
+
+}
+
+a.Flink:hover{
+    background-color:rgb(183, 130, 60);
+    padding:20px;
+}
+
+a.Blink:hover{
+    background-color: burlywood ;
+    padding:20px;
+
+}
+
+.Blink{
+    color:rgb(189, 143, 84);
+    font-weight: 600;
+    padding-left:20px;
+    padding:5px;
+    line-height: 0.2;
+
+}
+
+.phoneInfo{
+    float:right;
+    position: relative;
+    right: 50%;
+    font-weight: 400;
+    font-size: 20px;
+    gap:4px;
+
+}
+
+.phoneInfo p #Item1{
+    color: red
+
+}
+.des{
+    text-align: center;
+    
+}
+#head {
+    font-size: 20px;
+    color: rgb(189, 189, 128) ;
+    font-weight: 900;
+}
+
+#head h{
+    font-size: 40px;
+}
+.apple{
+    position: relative;
+    margin-left: 0px;
+    background-color: beige;
+    box-shadow: 5px 5px rgb(213, 213, 162) ;
+    margin-bottom: 40px;
+
+}
+
+header{
+    border-top: 1px solid black;
+   text-align: center;
+   margin-bottom: 40px;
+   border-bottom: 1px solid black;
+   padding: 50px;
+   background-color: blanchedalmond;
+}
+
+.Budget1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px
+
+}
+.samsung{
+    position: relative;
+    background-color: bisque;
+    height: 500px;
+    box-shadow: 5px 5px rgb(210, 178, 138);
+    margin-bottom: 40px;
+}
+.samsung img{
+    width:150px;
+}
+.info1{
+    position: relative;
+    color: black;
+    bottom: 50x;
+    left: 40%;
+    bottom: 40px;
+}
+
+.info3{
+    position:relative;
+    left: 40%;
+
+}
+.info3 a {
+    text-decoration:none;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info1 a{
+    text-decoration:none;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    border-style:outset;
+}
+.info1 a:hover{
+    background-image: url("cexlogo.png");
+    background-size: cover;
+    background-position:center;
+    color: transparent;
+}
+.info2 a{
+    background: bisque;
+    padding: 13px;
+    border-radius: 10px;
+    border-style:outset;
+
+
+}
+
+.info2 a:hover{
+    background-image:url("cexlogo.png");
+    background-size:cover;
+    background-position:center;
+    color: transparent;
+}
+ .info2 {
+    position:relative;
+    left: 40%;
+}
+.samInfo{
+    float: right;
+    position: relative;
+    right: 50%;
+    font-weight: 400;
+    font-size: 20px;
+    transition:all 0.3s ease;
+
+}
+
+.phoneInfo a{
+    text-decoration: none;
+    background-color: bisque;
+    padding: 13px;
+    border-radius: 4px;
+    border-style: outset;
+}
+
+.phoneInfo a:hover{
+    background-image: url(applelogo.png);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.samInfo a{
+    text-decoration: none;
+    background-color:beige;
+    padding: 13px;
+    border-radius:4px;
+    border-style: outset;
+    box-shadow: 3px 3px rgb(210,178,138);
+}
+.samInfo a:hover{
+    background-image:url("samsunglogo.png");
+    background-size:cover;
+    background-position: center;
+    color: transparent;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: rgb(189, 143, 84);
+    font-weight: 600;
+}
+
+.title1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(210, 178, 138);
+    font-weight: 600;
+
+}
+.title2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(189, 143, 84);
+    font-weight: 600;
+}
+.Budget{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 670px;
+    border-radius: 15px;
+    box-shadow: 7px 7px rgb(213,213,162);
+    background-color: beige;
+}
+.device1 .para{
+    float: right;
+    position: relative;
+    left: 90%;
+    bottom: 50%;
+}
+
+.para .info{
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.samDes{
+    font-size: 20px;
+    font-weight: 300;
+     border-radius: 15px;
+}
+
+.info a{
+    background-color:bisque ;
+    padding:25px;
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 4px 4px rgb(213,213,162);
+    text-decoration:none;
+    
+
+}
+
+.info a:hover{
+    background-image: url("cexlogo.png");
+    background-size: cover;
+    background-position:center;
+    color: transparent;
+
+}
+
+.device2{
+    background-color: bisque;
+    height: 620px;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(183, 130, 60);
+
+}
+
+
+.device3{
+    border-radius: 10px;
+    background-color:beige ;
+    box-shadow: 5px 5px rgb(213,213,162);
+}  
+
+.device4{
+    border-radius:10px;
+    background-color: bisque;
+    box-shadow: 4px 4px rgb(183, 130, 60);
+    height: 640px;
+}
+
+.device5{
+    background-color:beige;
+    border-radius:10px;
+    box-shadow: 5px 5px rgb(213,213,162);
+}
+
+
+.info4{
+    position: relative;
+    left: 40%;
+}
+
+.info4 a{
+    background-color:bisque;
+    padding:13px;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+.info4 a:hover{
+    background-image:url("cexlogo.png");
+    background-size:cover;
+    background-position:center;
+    color: transparent;
+}
+@media (max-width:929px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        width: 1580px;
+    
+        padding-right: 10px;
+    }
+
+    .Budget{
+        width:20px;
+    }
+    
+    .Budget1{
+        gap:130px;
+    }
+    
+    .samsung{
+        width:840px;
+    }
+    .apple{
+        width:760px;
+    }
+    .samInfo{
+        font-size:20px;
+        position: relative;
+        right: 20%;
+    }
+
+    .phoneInfo{
+        font-size: 20px;
+        position: relative;
+        right: 10%;
+        
+    }
+
+    body{
+        background-color: rgb(255, 247, 237);
+        margin: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width:1067px){
+    .header{
+        width: 100px;
+        
+    }
+    .Budget1{
+        width: fit-content;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+        position: relative;
+        left: 110px;
+    }
+
+    body{
+        background-color: rgb(255, 247, 237);
+        margin: 0;
+        overflow-x: hidden;
+    }
+}

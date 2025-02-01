@@ -1,0 +1,175 @@
+
+body{
+    background-color: bisque;
+    overflow-x: hidden;
+
+}
+
+header{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    border-top: 1px solid black;
+    text-align:center;
+    margin-bottom:40px;
+    border-bottom:1px solid black;
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+
+header #website nav a{
+    text-decoration:none;
+    word-spacing:10px;
+}
+
+#website nav #title a{
+    word-spacing: 2px;
+}
+#website nav #title1 a{
+    word-spacing:10px;
+    font-weight: 600;
+}
+
+.Flink{
+    color:burlywood;
+    font-weight: 600;
+padding-left: 20px;
+border-right: 1px solid brown ;
+padding-right: 10px;
+}
+
+
+a.Flink:hover{
+    background-color:rgb(183,130,60);
+    padding:20px;
+}
+
+a.Blink:hover{
+    background-color:burlywood;
+    padding:20px;
+}
+.Blink{
+    color:rgb(189,143,84);
+    font-weight: 600;
+    padding-left: 20px;
+    padding:5px;
+    line-height: 0.2;
+}
+.container-images{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+}
+
+.apple img{
+    width:100px;
+    margin-bottom: 50px;
+}
+
+.sam img{
+    width:100px;
+    margin-bottom: 50px;
+}
+
+.apple p{
+    font-size: 13px;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+    border-style:outset;
+    border-color: burlywood;
+}
+.apple h{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+ .apple  #ad{
+    color:green;
+    font-size: 20px;
+}
+
+.apple #dis{
+    color: red;
+    font-size: 20px; 
+}
+
+.apple .name{
+    position: relative;
+    bottom: 150px;
+    right: -150px;
+    color: brown;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.sam #ad{
+    color:green;
+    font-size: 20px;
+    text-decoration: underline;
+  
+}
+
+.sam #dis{
+    color:red;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.sam  p{
+    background-color: beige;
+    padding:20px;
+    border-radius:20px;
+    border-style: outset;
+    border-color: burlywood;
+}
+
+
+.sam .name1{
+    position:relative;
+    bottom: 150px;
+    left:150px;
+    color: brown;
+    font-weight: 700;
+    font-size:40px;
+   
+}
+
+
+
+
+
+@media (max-width:790px){
+    header{
+        width: 900px;
+    }
+
+    .body{
+        overflow-x: hidden;
+    }
+    .apple .name{
+        position:relative;
+        left: 30%;
+        font-size: 18px;
+    }
+
+    .sam .name1{
+           position: relative;
+              left: 30%;
+              font-size: 17px ;
+    }
+
+    .apple p{
+        width: 402px;
+    }
+
+    .sam p{
+        width:402px;
+    }
+
+    .container-left{
+
+        width: 400px;
+    }
+}
